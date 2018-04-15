@@ -29,8 +29,8 @@ select{width:300px; backgroundcolor:green; height:30px; border:1px solid black; 
 	   <ul class="nav navbar-nav">
 	   <li class="active"><a href="#">Contact</a></li> 
        <li class="active"><a href="{{URL::to('/profile')}}">Your Profile</a></li>
-	   <li class="active"><a href="/makepost">Make Post</a></li>
-       <li class="active"><a href="#">See Recent Posts</a></li>	
+	   <li class="active"><a href="/makepost">Make Order</a></li>
+     
        <li class="active"><a href="#">Contact</a></li>		
     </ul>
 		  <ul class="nav navbar-nav navbar-right">
@@ -40,7 +40,7 @@ select{width:300px; backgroundcolor:green; height:30px; border:1px solid black; 
     </ul>
 	  @else
 		 <div class="navbar-header">
-        <a class="navbar-brand" href="#">Online Tutor</a>
+        <a class="navbar-brand" href="#">Medicine</a>
         </div>
 	    <ul class="nav navbar-nav">
         <li class="active"><a href="#">About Us</a></li>

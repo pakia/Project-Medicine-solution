@@ -7,27 +7,11 @@
 select {width:400px;}
 </style>
 
-<div class="container">
-  <form action="\update_post&<?php echo $Data->id?>" method="post">
-   <input type="hidden" name="_token" value="{{csrf_token()}}">
-	<div class="form-group" class=''>
-	 <p><b> Student Study Class</b></p>
-    <select name="class" class="form-control">
-	 <option value="Any Class" selected>Any Class</option>
-    <option value="Play">Play</option>
-    <option value="K.G" >K.G</option>
-    <option value="Class One">Class One</option>
-   <option value="Class Two">Class Two</option>
-    </select>
+
    
-	<div class="form-group">
-	 <p><b> Medium/Version</b></p>
-     <select name="medium" class="form-control">
-	 <option value="Bangla medium" selected>Bangla medium</option>
-     <option value="English medium">English medium</option>
-  </select>
+	
   <div class="form-group">
-	 <p><b> Student Gender</b></p>
+	 <p><b> Patients Gender</b></p>
      <select name="gender" class="form-control">
 	 <option value="Male" selected>Male</option>
      <option value="Female">Female</option>

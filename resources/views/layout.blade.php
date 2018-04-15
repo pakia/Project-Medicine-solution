@@ -29,8 +29,8 @@ select{width:600px; height:30px; border:1px solid #990000; border-radius:5px;}
 	   <ul class="nav navbar-nav">
 	   <li class="active"><a href="#">Contact</a></li> 
        <li class="active"><a href="{{URL::to('/profile')}}">Your Profile</a></li>
-	   <li class="active"><a href="/makepost">Make Post</a></li>
-       <li class="active"><a href="#">See Recent Posts</a></li>	
+	   
+       
        <li class="active"><a href="#">Contact</a></li>		
     </ul>
 		  <ul class="nav navbar-nav navbar-right">

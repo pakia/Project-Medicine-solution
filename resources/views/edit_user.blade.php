@@ -24,7 +24,7 @@ select{width:300px; height:35px; border:1px solid black; border-radius:5px;}
 <input type="password" name="password" placeholder="Password" value="{{$Data->password}}"required /></br>
 
 <b>Mobile Number:</b></br>
-<Input type="tel" name="mobile_no" placeholder="019******" value="{{$Data->mobile}}" required /></br>
+<Input type="tel" name="mobile_no" placeholder="017******" value="{{$Data->mobile}}" required /></br>
 
 <b>User type:</b></br>
 <select name="utype"value="{{$Data->utype}}">

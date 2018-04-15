@@ -9,6 +9,7 @@ select{width:700px; height:35px; border:1px solid black; border-radius:5px;}
 
 <div class="con">
 
+
  <form action="update_profile&<?php echo $Data->id?>" method="post">
  
  <input type="hidden" name="_token" value="{{csrf_token()}}">

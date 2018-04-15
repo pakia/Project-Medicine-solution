@@ -10,7 +10,7 @@
 
 
 <div class="panel-heading" ><b>Posts List</b></div>
-<a href="/postinsert" class="btn btn-info"><b>Make a new post</b></a>
+<a href="/postinsert" class="btn btn-info"><b>Make a order</b></a>
 @if(Session::has('msg'))
 	
 <div class="row" >

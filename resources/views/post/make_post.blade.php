@@ -11,20 +11,20 @@ select {width:400px;}
   <form action="\post_action" method="post">
    <input type="hidden" name="_token" value="{{csrf_token()}}">
 	<div class="form-group" class=''>
-	 <p><b> Student Study Class</b></p>
+	 <p><b>Order Product</b></p>
     <select name="class" class="form-control">
-	 <option value="Any Class" selected>Any Class</option>
-    <option value="Play">Play</option>
-    <option value="K.G" >K.G</option>
-    <option value="Class One">Class One</option>
-   <option value="Class Two">Class Two</option>
+	 <option value="AnyProduct" selected>AnyProduct</option>
+    <option value="Napa">Napa</option>
+    <option value="Alatrol" >Alatrol</option>
+    <option value="Parasitamol">Parasitamol</option>
+   <option value="Napa extra">Napa extra</option>
     </select>
    
 	<div class="form-group">
-	 <p><b> Medium/Version</b></p>
+	 <p><b> Medium</b></p>
      <select name="medium" class="form-control">
-	 <option value="Bangla medium" selected>Bangla medium</option>
-     <option value="English medium">English medium</option>
+	 <option value="Bangla medium" selected>Representator</option>
+     <option value="English medium">Offline</option>
   </select>
   <div class="form-group">
 	 <p><b> Student Gender</b></p>
@@ -53,7 +53,7 @@ select {width:400px;}
    <input type="text" name="content" class="form-control"style="height:100px; width:500px;"  placeholder="You can add any additional requirement here" required />
   </div>
    </br>
-   <center> <button type="submit" style=" width:100px; Color:green;"  class="btn btn-default">Post</button></center>
+   <center> <button type="submit" style=" width:100px; Color:green;"  class="btn btn-default">Order</button></center>
   </form>
 </div>
 

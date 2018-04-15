@@ -21,9 +21,11 @@
                       </a>
             <ul class="sub">
               <li><a class="" href="{{URL::to('/users')}}">Users</a></li>
+			  <li><a class="" href="/posts">OrderDetails</a></li>
 			   
             </ul>
           </li>
+		  
 
           <li class="sub-menu">
             <a href="javascript:;" class="">

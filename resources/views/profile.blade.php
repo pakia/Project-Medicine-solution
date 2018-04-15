@@ -6,12 +6,12 @@
 
 	    <ul class="nav navbar-nav">
 		    <li class="active"><a href="edit_profile&{{ ucwords(Auth::user()->id) }}">Edit Profile</a></li>  
-        <li class="active" ><a href="#">Update Educational Qualifications</a></li>
+        
 	   
        </ul>
     <ul class="nav navbar-nav navbar-right">
     
-      <li><a href="/makepost" class="btn btn-info" >Click Here to Make a Post</a></li>
+      
 	  
     </ul>
 	
@@ -101,12 +101,7 @@
 			
 	</div>
 	
-	<div>
 	
-	<p><b> Educational Qualifications</b></p>
-	</br>
-	
-	</div>
   </div>
   @else
   <center><h2> Please logged to get access of this page</h2></center>

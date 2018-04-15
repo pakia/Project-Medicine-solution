@@ -1,7 +1,7 @@
 @extends('view_layout')
 @section('content')
 
-<Center><h1> Create a post here<h1></Center>
+<Center><h1> Create a Order Here<h1></Center>
 
 <style>
 select {width:400px;}
@@ -11,21 +11,16 @@ select {width:400px;}
   <form action="\admin_post_insert" method="post">
    <input type="hidden" name="_token" value="{{csrf_token()}}">
 	<div class="form-group" class=''>
-	 <p><b> Student Study Class</b></p>
+	 <p><b> MEdicine Category</b></p>
     <select name="class" class="form-control">
-	 <option value="Any Class" selected>Any Class</option>
-    <option value="Play">Play</option>
-    <option value="K.G" >K.G</option>
-    <option value="Class One">Class One</option>
-   <option value="Class Two">Class Two</option>
+	 <option value="Product" selected>Product</option>
+    <option value="Napa">Napa</option>
+    <option value="Alatrol" >Alatrol</option>
+    <option value="Parasitamol">Parasitamol</option>
+   <option value="Napa extra">Napa extra</option>
     </select>
    
-	<div class="form-group">
-	 <p><b> Medium/Version</b></p>
-     <select name="medium" class="form-control">
-	 <option value="Bangla medium" selected>Bangla medium</option>
-     <option value="English medium">English medium</option>
-  </select>
+
   <div class="form-group">
 	 <p><b> Student Gender</b></p>
      <select name="gender" class="form-control">
@@ -48,11 +43,7 @@ select {width:400px;}
    <p><b>Salary</b></p>
    <input type="text" name="salary"  class="form-control"  placeholder="Provided preferable salary" required />
   </div>
-  <div class="form-group">
-   <p><b>Describes Address in Details</b></p>
-   <input type="text" name="content"  class="form-control"style="height:100px; width:500px;"  placeholder="You can add any additional requirement here" required />
-  </div>
-   </br>
+
    <center> <button type="submit" style=" width:100px; Color:green;"  class="btn btn-default">Post</button></center>
   </form>
 </div>
